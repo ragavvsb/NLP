@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back soon."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": [""]
+    },
+    {
+      "tag": "options",
+      "patterns": ["How you can help me?", "What you can do?", "What help you provide?", "How you can be helpful?"],
+      "responses": ["I can provide information about our services, handle basic queries, and guide you to the right department.", "I'm here to answer your questions and help you navigate our site."],
+      "context": [""]
+    },
+    {
+      "tag": "services",
+      "patterns": ["What services do you offer?", "Tell me about your services", "What can I buy?", "What do you sell?"],
+      "responses": ["We offer a range of products including software solutions, consulting services, and support.", "Our services include NLP development, deep learning model training, and AI integration."],
+      "context": [""]
+    }
+  ]
+}

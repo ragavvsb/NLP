@@ -1,0 +1,56 @@
+{
+    "intents": [
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "Check order status",
+                "Has my package shipped?",
+                "Track my order"
+            ],
+            "responses": [
+                "Your order is being processed. You can track it here: [link].",
+                "Your package has shipped and should arrive in 3-5 days."
+            ]
+        },
+        {
+            "tag": "refund_queries",
+            "patterns": [
+                "I want a refund",
+                "How to get my money back?",
+                "Refund policy",
+                "Cancel and refund"
+            ],
+            "responses": [
+                "Refunds are processed within 5-7 business days after approval.",
+                "Please provide your order ID for refund initiation."
+            ]
+        },
+        {
+            "tag": "product_details",
+            "patterns": [
+                "Tell me about this product",
+                "Product specifications",
+                "What are the features?",
+                "Is this item available?"
+            ],
+            "responses": [
+                "This product includes [features]. Check our site for full specs.",
+                "Yes, it's in stock. Visit [link] for details."
+            ]
+        },
+        {
+            "tag": "technical_support",
+            "patterns": [
+                "My device isn't working",
+                "Help with setup",
+                "Technical issues",
+                "Troubleshoot problem"
+            ],
+            "responses": [
+                "Please describe the issue. Our support team will assist.",
+                "Try resetting the device. If that doesn't work, contact support at [email]."
+            ]
+        }
+    ]
+}
